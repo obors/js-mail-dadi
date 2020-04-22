@@ -6,14 +6,13 @@ var mails = ['p.pippo@hotamail.org', 'v2020bianco@amail.co', 'ochiocciola@oil.co
 console.log(mails);
 
 
-
 //confermma della presenza della mail
 //conferma mail non presente nella lista
-for (var i = 0; i < mails.length; i++) {
- if (newMail==mails[i])
- alert("Complimenti mail riscontrata !!!")
-}else if (newMail!=mails[i]) {
- alert("Siamo spiacenti mail non riscontrata !!!")
+
+if (newMail = mails.includes){
+alert("Complimenti mail riscontrata !!!")
+}else  {
+alert("Siamo spiacenti mail non riscontrata !!!")
 }
 
 
@@ -21,7 +20,7 @@ for (var i = 0; i < mails.length; i++) {
 var newMail = prompt("Ti andrebbe di aggiungere la tua mail per ricevere ogni tipo di spam?");
 mails.push(newMail);
 
-
+// for (var i = 0; i < mails.length; i++) {
 // for (var i = 0; i > mails.length; i++) {
 // if (newMail!=mails[i]);
 // alert("Spiacenti mail non riscontrata !!!");
